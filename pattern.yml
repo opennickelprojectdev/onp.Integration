@@ -1,29 +1,25 @@
-metadata:
-  pattern-id: onp.base.template
-  pattern-name: base-template
-  organisation-id: onp
-  pattern-version: 1.0.0
-  pattern-description: some description here
-  pattern-categories: 
-              - bootstrap
-
+dependencies: null
 lifecycle:
   create:
     commands:
-      - bash lifecycle/create.sh
-
+    - bash lifecycle/create.sh
   delete:
     commands:
-      - bash lifecycle/delete.sh
-
+    - bash lifecycle/delete.sh
   update:
     commands:
-      - bash lifecycle/update.sh
-
+    - bash lifecycle/update.sh
   upgrade:
     commands:
-      - bash lifecycle/upgrade.sh
-
-dependencies:
-
-
+    - bash lifecycle/upgrade.sh
+metadata:
+  organisation-id: e6
+  pattern-categories:
+  - Integration
+  pattern-description: The Integration domain enables secure separation of subnets,
+    including a Payments DMZ subnet for payment network endpoints and a separate subnet
+    for hosting web servers serving static content for the Tritium Control Console
+    customer service tool.
+  pattern-id: onp.e6.integration.specifications
+  pattern-name: e6.integration.specifications
+  pattern-version: 1.0.0
