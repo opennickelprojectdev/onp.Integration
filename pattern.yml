@@ -13,13 +13,13 @@ lifecycle:
     commands:
     - bash lifecycle/upgrade.sh
 metadata:
-  organisation-id: onp
+  organisation-id: e6
   pattern-categories:
   - Integration
   pattern-description: The Integration domain enables secure separation of subnets,
     including a Payments DMZ subnet for payment network endpoints and a separate subnet
     for hosting web servers serving static content for the Tritium Control Console
     customer service tool.
-  pattern-id: onp.Integration
-  pattern-name: Integration
+  pattern-id: onp.e6.integration.specifications
+  pattern-name: e6.integration.specifications
   pattern-version: 1.0.0
