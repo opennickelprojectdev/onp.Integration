@@ -6,20 +6,12 @@
 | pattern-id              | onp.base.template                             |
 | pattern-name            | base template                                 |
 | pattern-version         | 1.0.0                                         |
-| pattern-description     | Some description here                         |
-| organisation-id         | nc                                            |
+| pattern-description     | "The integration domain consists of multiple subnets that are firewall separated and serve different purposes. Payments Demilitarized Zone (DMZ) subnet is used to the Mastercard Interface Processer (MIP), Visa EA server, and other payment network endpoints. A separate subnet hosts web servers that are used to serve static content for the Tritium Control Console customer service tool.
+"                         |
+| organisation-id         | e6                                            |
 | pattern-categories      | bootstrap                                     |
 
 ## What is this pattern?
 This pattern is a basic template, modify it as you see fit
 
-![](./diagrams/res/overview.png)
-
-## What are the use cases?
-This pattern is a basic template, modify it as you see fit
-
-## Variables
-
-| Variable               | Source                                         | Value |
-| -----------------------| --------------------------------------------- | ------|
-| Var1                   | SSM Parameter | onp/bootstrap/base-template|
+![](./diagrams/res/overview1e6.png)
